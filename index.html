@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>GP Assist</title>
+  </head>
+  <body>
+    <script type="text/javascript" src="MBS.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+
+    <div>
+      <label for="fname"><strong>Treatment Notes</strong></label
+      ><br />
+      <input type="text" class="tNotes" id="tNotes" name="tNotes" />
+      <br />
+      <button onClick="rakeFilter(document.getElementById('tNotes').value);">
+        Submit
+      </button>
+      <br />
+      <label for="fname"><strong>Email Reception</strong></label>
+      <input type="text" class="" id="tNotes" name="tNotes" />
+      <button onClick="">Send</button>
+      <div id="totalCount"></div>
+      <ul id="listcontent"></ul>
+    </div>
+  </body>
+</html>
